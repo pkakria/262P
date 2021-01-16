@@ -27,7 +27,7 @@ public class GetSubObjectsJSON {
             BufferedWriter bw = new BufferedWriter(new FileWriter(outFile));
             
             // harcoded string. change for each XML file
-            String jsonPointerString = "/root/listing/0";
+            String jsonPointerString = "/catalog/book/0";
             JSONPointer jpointer = new JSONPointer(jsonPointerString);
             try{
                 Object subObject = jpointer.queryFrom(json);
