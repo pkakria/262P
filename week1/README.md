@@ -4,6 +4,7 @@ Week 1: Milestone 1
 //Conversion of XML to JSON
 
 Please make sure you add the json jar file to the parent directory of the source code.
+--Steps to run smallFile1.xml
 
 •	Task 1: Convert XML to JSON file
 Open file “XMLtoJSON_M1.java”
@@ -49,6 +50,10 @@ Arguments: “../smallFile1.xml”
 output will save in output5.json
 
 
+---How to run medium fie - "mediumFile1.xml"
+change arguments to ---> /table/T/o
+annd follow the above steps mention for "smallFile1.xml" above.
+
 Files processed:
 I have process a few of small file (size: kbs), medium files (size: 5MB to 90MB) and large files (size: 133MB) and very large file (size: 716 MB - 2.7GB). 
 
@@ -67,7 +72,6 @@ enwiki-20201220-stub-meta-history23
 
 Observations:
 Small and some medium size files are processing well, but some large and very large (above 500MB) file are giving java heap out memory error. My current heap size is 1GB and not increasing belond.
-
 
 
 
