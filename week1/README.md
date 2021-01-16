@@ -3,41 +3,49 @@ Week 1: Milestone 1
 
 //Conversion of XML to JSON
 
+Please make sure you add the json jar file to the parent directory of the source code.
+
 •	Task 1: Convert XML to JSON file
 Open file “XMLtoJSON_M1.java”
-Run command:
->> java XMLtoJSON_M1 “../smallFile1.xml”
+Run
+File: XMLtoJSON_M1
+Argument: “../smallFile1.xml”
 output will save in output1.json
 
 •	Task 2: Get a sub object in JSON file with hard-coded key-path
 Open file “GetSubObjectsJSON.java”
 Change the JSONPointer according to the XML file that we need to process in line 30 of .java file
 String jsonPointerString = “/catalog/book/0”;
->> java GetSubObjectsJSON “../smallFile1.xml”
+Run 
+file: GetSubObjectsJSON
+Argument: “../smallFile1.xml”
 output will save in output2.json
 
 •	Task 3: Find a sub object in JSON file with command line key-path
 Open file “FindSubObjectInJSON.java”
 File needs two arguments to run, xml file and the desired key-path (change according to the xml file)
-Run command:
->> java FindSubObjectInJSON “../smallFile1.xml” “/catalog/book/0”
+Run
+File: FindSubObjectInJSON
+Arguments: “../smallFile1.xml” “/catalog/book/0”
 output will save in output3.json
 
 •	Task 4: Add prefix “swe262_” to all keys in JSON file
 Open file “AddPrefixJSONKeys.java”
-Run command:
->> java AddPrefixJSONKeys “../smallFile1.xml”
+Run:
+File: AddPrefixJSONKeys
+Arguments: “../smallFile1.xml”
 output will save in output4.json
 
 •	Task 5: Replace a sub object in JSON file with another object
 Open file “ReplaceSubObjectJSON.java”
 Change the json pointer string and the new object details in the file (line 63 and 77)
-
 String keypath = "/catalog/book/0";
 
 myObject.put("author", "Hemant").put("id", "bk110").put("title", "How to be a successfull women entrepreneur").put("price", 10);
 
->> java ReplaceSubObjectJSON “../smallFile1.xml”
+Run
+File: ReplaceSubObjectJSON
+Arguments: “../smallFile1.xml”
 output will save in output5.json
 
 
