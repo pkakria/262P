@@ -1,10 +1,12 @@
 
 
 ******To run TwentySix (on MAC/Linux)****
+
 javac -cp ".:sqlite-jdbc-3.34.0.jar" TwentySix.java
 java -cp ".:sqlite-jdbc-3.34.0.jar" TwentySix ../pride-and-prejudice.txt
 
 ******To run TwentySix (on Windows)****
+
 javac -cp ".;sqlite-jdbc-3.34.0.jar" TwentySix.java
 java -cp ".;sqlite-jdbc-3.34.0.jar" TwentySix ..\pride-and-prejudice.txt
 
@@ -12,11 +14,14 @@ java -cp ".;sqlite-jdbc-3.34.0.jar" TwentySix ..\pride-and-prejudice.txt
 https://github.com/pkakria/262P/edit/main/week6
 
 ******To run TwentyEight.java******
+
 javac twentyEight.java
 
 (On MAC/Linux)
+
 java twentyEight ../pride-and-prejudice.txt
 (On Windows)
+
 java twentyEight ..\pride-and-prejudice.txt
 
 
